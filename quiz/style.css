@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* horizontal center */
+    align-items: center;      /* vertical center */
+    background: #6996dbe8;    /* dark background so glow shows */
+    font-family: Arial, sans-serif;
+}
+
+.main-box {
+    width: 800px;
+    max-width: 90%;   /* responsive on small screens */
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: center;
+}
+
+.main-box h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+.main-box h3 {
+    text-align: left;
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #444;
+}
+
+.main-box input {
+    width: 90%;              /* wider inputs */
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+}
+
+.main-box input:focus {
+    border-color: #6996db;
+    box-shadow: 0 0 10px #6996db;
+}
+
+.main-box button {
+    width: 95%;
+    padding: 12px;
+    border: none;
+    background: #6996db;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+.main-box button:hover {
+    background: #567cc0;
+}
+
+
+
+    .login {
+    display: block;       /* takes full line so we can move it */
+    text-align: left;     /* align text to the left */
+    margin-top: 10px;     /* pushes it a little down */
+    margin-left: 10px;    /* small space from left edge */
+    color: inherit;       
+    text-decoration: none; 
+    font-size: 15px;
+    }
